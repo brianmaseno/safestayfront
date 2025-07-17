@@ -2,7 +2,7 @@ import axios from 'axios';
 import io from 'socket.io-client';
 
 // Base URLs
-const backendBaseUrl = "http://localhost:5000";
+const backendBaseUrl = "https://safestayback.onrender.com";
 const API_BaseUrl = `${backendBaseUrl}/api`;
 
 // Axios instance
